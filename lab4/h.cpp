@@ -57,6 +57,8 @@ int main() {
     vector<int> result;
     inorderTraversal(root, result);
 
+    sort(result.begin(), result.end());
+
     for (int val : result) {
         cout << val << " ";
     }
